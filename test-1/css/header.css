@@ -1,0 +1,61 @@
+.header {
+}
+.header .layout {
+  max-width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.header .layout .left {
+  height: 100%;
+  width: 20%;
+}
+.left .logo {
+  height: 100%;
+  width: 100%;
+  display: block;
+  border-right: 1px dotted black;
+  cursor: pointer;
+  align-content: center;
+  text-align: center;
+}
+.left .logo img {
+}
+
+.header .layout .right {
+}
+.right .gnb {
+}
+.right .gnb .main-menu {
+  display: flex;
+  border: 1px solid black;
+  background-color: white;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.main-menu li {
+}
+.main-menu li .mainmenu-link {
+  border: 1px solid black;
+  display: block;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.main-menu li .sub-menu-set {
+  margin-bottom: 10px;
+}
+.main-menu li .sub-muen {
+  width: 100%;
+  height: 100%;
+}
+.main-menu li .sub-menu a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+}
+.main-menu li .sub-menu a:hover {
+  background-color: gray;
+}

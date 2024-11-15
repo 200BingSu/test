@@ -1,0 +1,74 @@
+.header {
+  height: 100px;
+  background-color: skyblue;
+}
+
+.header .layout {
+  position: relative;
+  max-width: 1200px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: hotpink;
+
+  transition: all 0.5s;
+  overflow: hidden;
+}
+
+/* .header .layout:hover {
+  height: 300px;
+} */
+.gnb-active {
+  height: 300px !important;
+}
+
+.logo {
+}
+.logo a {
+}
+
+.menu-bg {
+  position: absolute;
+  left: 0;
+  top: 100px;
+
+  width: 100%;
+  height: 300px;
+  background-color: greenyellow;
+}
+
+.gnb {
+  margin-top: 50px;
+  margin-right: 20px;
+  z-index: 1;
+}
+.gnb .menu {
+  display: flex;
+}
+.gnb .menu li {
+  width: 200px;
+  background-color: #000000;
+}
+
+.gnb .menu > li:hover > a {
+  background-color: red;
+}
+
+.gnb .menu > li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+.gnb .menu > li a:hover {
+  background-color: red;
+}
+.gnb .menu .submenu {
+}
+.gnb .menu .submenu > li {
+}
+.gnb .menu .submenu > li > a {
+}

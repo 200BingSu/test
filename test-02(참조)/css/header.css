@@ -1,0 +1,65 @@
+.herader {
+  height: 100px;
+  background-color: skyblue;
+}
+.herader .layout {
+  position: relative;
+  max-width: 1200px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: hotpink;
+
+  margin: 0 auto;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+
+/* .herader .layout:hover {
+  height: 300px;
+} */
+.gnb-active {
+  height: 300px !important;
+}
+.logo {
+}
+.logo a {
+}
+
+.menu-bg {
+  position: absolute;
+  left: 0;
+  top: 100px;
+  width: 100%;
+  height: 400px;
+  background-color: greenyellow;
+}
+
+.gnb {
+  margin-top: 50px;
+  margin-right: 20px;
+  z-index: 1;
+}
+.gnb .menu {
+  display: flex;
+}
+
+.gnb .menu li {
+  width: 200px;
+  background-color: black;
+  /* border: 5px solid red; */
+}
+.gnb .menu > li:hover > a {
+  background-color: red;
+}
+.gnb .menu > li a {
+  display: flex;
+  height: 50px;
+  /* text-align: center; */
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.gnb .menu > li a:hover {
+  background-color: red;
+}

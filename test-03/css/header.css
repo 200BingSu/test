@@ -1,0 +1,60 @@
+.header {
+  background-color: aquamarine;
+}
+.header .layout {
+  display: flex;
+  position: relative;
+  height: 100px;
+  margin: 0 auto;
+  max-width: 1200px;
+  align-items: center;
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+/* 로고 */
+.header .layout .header-logo {
+}
+.header .layout .header-logo img {
+}
+/* 메뉴 */
+.header .layout .gnb {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+.gnb .menu-box {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.gnb .menu-box .menu-wrap {
+}
+.menu-wrap .mainmenu-link {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+}
+.menu-wrap .submenu {
+  background-color: rgb(186, 255, 252);
+  height: 0px;
+  overflow: hidden;
+}
+.submenu-link {
+  display: block;
+  padding: 10px 20px;
+}
+
+/*hover*/
+.menu-wrap:hover > ul {
+  height: 200px;
+  overflow: visible;
+}
+
+.menu-wrap:hover .mainmenu-link {
+  color: #fff;
+  background-color: black;
+}
+.submenu-link:hover {
+  color: #fff;
+  background-color: black;
+}

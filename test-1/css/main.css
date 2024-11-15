@@ -1,0 +1,34 @@
+.main {
+}
+.main .layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.slide {
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+  align-content: center;
+  text-align: center;
+}
+.comm {
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.comm div {
+  width: 33.333%;
+  align-content: center;
+  text-align: center;
+}
+.comm .gallery {
+}
+.comm .banner {
+  border-left: 1px dotted black;
+  border-right: 1px dotted black;
+}
+.comm .shorcut {
+}
